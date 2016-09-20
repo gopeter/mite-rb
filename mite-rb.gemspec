@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency(%q<activeresource>, [">= 3.2.22.5"])
+  s.add_runtime_dependency(%q<activeresource>, [">= 4.1.0"])
 end
 
